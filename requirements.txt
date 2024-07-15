@@ -1,0 +1,9 @@
+scikit-learn==1.2.2    
+spacy     
+en_core_web_sm 
+pdfplumber
+PyPDF2 
+doc2txt 
+pickle
+pandas 
+streamlit
