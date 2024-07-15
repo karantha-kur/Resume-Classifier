@@ -5,7 +5,6 @@ en_core_web_sm
 pdfplumber
 PyPDF2 
 docx2txt 
-pickle
 pandas 
 streamlit
 pip==24.0
