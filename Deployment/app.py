@@ -13,6 +13,10 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import RegexpTokenizer
 
+import warnings
+warnings.filterwarnings("ignore", message="numpy.dtype size changed")
+warnings.filterwarnings("ignore", message="numpy.ufunc size changed")
+
 st.title('RESUME CLASSIFIER')
 st.markdown('<style>h1{color: Purple;}</style>', unsafe_allow_html = True)
 st.subheader('Welcome to the Resume Classifier App')
